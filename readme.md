@@ -1,22 +1,22 @@
 AMX Plugins
-===========
+===
 
 These plugins are for use on your Counter-Strike or Day of Defeat servers running either <a href="http://amxmod.net/">AMX</a> or <a href="http://www.amxmodx.org/">AMX Mod X (AMXX)</a>.
 
 Included Plugins
-----------------
+---
 
-# plugin_cloakwar
+### plugin_cloakwar
 
 Gives the winning team cloaking powers. Cloaked players
 are revealed only for a few seconds after firing but 
 they only have 1 health.
 
-# plugin_clonewar
+### plugin_clonewar
 
 Makes all players use the same model.
 
-# plugin_csevents
+### plugin_csevents
 
 Announces events for Counter-Strike.
 
@@ -43,13 +43,13 @@ Announces events for Counter-Strike.
 * First kill (bonus health/money)
 * Killstreak
 
-# plugin_freezetag
+### plugin_freezetag
 
 Players freeze each other with their knives. Players
 are unfrozen by their teammates. A team wins by freezing
 all the players on the other team. (My favorite plugin)
 
-# plugin_fun
+### plugin_fun
 
 Provides admin commands for all fun functions.
 
@@ -71,11 +71,11 @@ Provides admin commands for all fun functions.
 * amx_footsteps - changes player footsteps
 * amx_lights - change map lighting
 
-# plugin_funman
+### plugin_funman
 
 Fun manager. Turns on different fun modes based on the current map.
 
-# plugin_gamble
+### plugin_gamble
 
 This plugin allows players to gamble for certain
 powers by saying "gamble!". They can also receive
@@ -120,14 +120,14 @@ negative effects. All powers are time limited.
 
 **Requires plugin_powers and plugin_punish to work.**
 
-# plugin_glowdamage
+### plugin_glowdamage
 
 This plugin makes players glow briefly when 
 damaged. There are team-based glow colors
 as well as different colors for the amount
 of damage dealt.
 
-# plugin_gore
+### plugin_gore
 
 This plugin adds extra gore effects.
 
@@ -136,7 +136,7 @@ This plugin adds extra gore effects.
 * Bleeding on low health
 * Gib explosion (knife, HE, high damage only)
 
-# plugin_hunting
+### plugin_hunting
 
 Hunting season mod. One team (hunters) have infinite ammo and
 armor. The other team (bears) have lots of health and knives.
@@ -144,11 +144,11 @@ Teams switch roles every round.
 
 **Requires plugin_powers to work.**
 
-# plugin_ka
+### plugin_ka
 
 Knife arena. Players can only use knives.
 
-# plugin_listen
+### plugin_listen
 
 Changes who can hear who.
 
@@ -156,7 +156,7 @@ Changes who can hear who.
 * Dead players can hear alive players
 * Alive players can hear dead players
 
-# plugin_mysql_ban
+### plugin_mysql_ban
 
 Simple ban management using a MySQL database.
 
@@ -171,11 +171,11 @@ reason varchar(255),
 bandatetime int unsigned default 0
 );`
 
-# plugin_namechange
+### plugin_namechange
 
 Prevents or punishes players for changing their names.
 
-# plugin_powers
+### plugin_powers
 
 This plugin gives admins the ability to set positive
 and negative effects on players.
@@ -210,7 +210,7 @@ and negative effects on players.
 * amx_agshot - bullets have a anti-gravity effect
 * amx_splintershot - bullets splinter on impact
 
-# plugin_punish
+### plugin_punish
 
 This plugin gives admins the ability to punish
 players in multiple ways.
@@ -227,11 +227,11 @@ players in multiple ways.
 * amx_sober - removes drunk from a player
 * amx_bunny - makes player constantly jump
 
-# plugin_rambo
+### plugin_rambo
 
 Gives a player infinite bullets. (For Day of Defeat only)
 
-# plugin_slash
+### plugin_slash
 
 This plugin allows admins to execute amx commands
 using 'say' and a slash '/'. It can also execute
@@ -249,11 +249,11 @@ Includes an IRC style '/me' command. If you say
 '/me sucks', it'll replace the '/me' with your name
 and print it to everyone.
 
-# plugin_stealthwar
+### plugin_stealthwar
 
 Makes the winning team invisible. Invisible players can only use knives.
 
-# plugin_targetwar
+### plugin_targetwar
 
 Target war mod. One person on each team is randomly
 selected to be a target. Only the target can die, 
